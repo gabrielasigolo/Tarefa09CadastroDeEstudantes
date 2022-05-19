@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EstudantesComponent } from './estudantes/estudantes.component';
-import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+import { FormsModule } from '@angular/forms';
+import { StudentDetailComponent } from './student-detail/student-detail.component'; // <-- NgModel lives here
 
 @NgModule({
   declarations: [
     AppComponent,
-    EstudantesComponent
+    EstudantesComponent,
+    StudentDetailComponent
   ],
   imports: [
     BrowserModule,
