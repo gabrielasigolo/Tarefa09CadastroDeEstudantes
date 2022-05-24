@@ -29,14 +29,12 @@ h2{
     border-radius: 10px;
 }
 
-.estudantes button:hover{
+.estudantes button:hover, span:hover{
     cursor: pointer;
+    background-color: grey;
 }
 
-.estudantes button.selected {
-    background-color: #646FD4;
-}
-
+.estudantes button.selected,
 .estudantes span.selected {
     background-color: #646FD4;
 }
