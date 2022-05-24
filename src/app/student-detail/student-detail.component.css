@@ -1,5 +1,8 @@
 h2{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: indigo;
+    text-align: center;
+    color: white;
 }
 
 .student-details{
@@ -8,6 +11,12 @@ h2{
 
 .student-details label {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#studentName {
+    width: 300px;
+    padding-bottom: 1px;
+    background-color: gainsboro;
 }
 
 .student-details input {

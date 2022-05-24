@@ -1,0 +1,14 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border: none;
+    background-color:rgba(41, 139, 236, 0.863);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
