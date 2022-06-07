@@ -7,3 +7,15 @@ h1{
     color:indigo;
     margin-left: 15px;
 }
+
+.navbar{
+    margin: 5px;
+}
+
+.navbar a{
+    background-color: #4195e9;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
